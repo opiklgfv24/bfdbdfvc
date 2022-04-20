@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:  bfgb3
+  name:  vsvfd4
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: bfgb3
+      app: vsvfd4
   template:
     metadata:
       labels:
-        app: bfgb3
+        app: vsvfd4
     spec:
       containers:
-      - image: okteto.dev/bfgb3:latest
-        name: bfgb3
+      - image: okteto.dev/vsvfd4:latest
+        name: vsvfd4
         ports:
         - containerPort: 8080
         env:
@@ -23,12 +23,12 @@ spec:
         - name: ProxySite
           value: "mirror.umd.edu"
         - name: Vless_UUID
-          value: "1b11b337-c6ec-4af7-a59d-fdc9e80e7fc1"
+          value: "d05fccf7-8cc7-4bc2-b70a-692a89aa6178"
         - name: Vless_Path
-          value: "/gvsa3"
+          value: "/vnfids4"
         - name: Vmess_UUID
-          value: "9b5ecb45-8cb7-4e0e-890a-e44f47006e11"
+          value: "366d20c5-2416-490f-be8b-d62dd2bb5975"
         - name: Vmess_Path
-          value: "/vdfbmm"
+          value: "/mvsde4"
         - name: Share_Path
           value: "/vfdsv3"
