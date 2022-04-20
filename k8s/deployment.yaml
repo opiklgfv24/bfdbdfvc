@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:  nbckxj2
+  name:  bfgb3
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nbckxj2
+      app: bfgb3
   template:
     metadata:
       labels:
-        app: nbckxj2
+        app: bfgb3
     spec:
       containers:
-      - image: okteto.dev/nbckxj2:latest
-        name: nbckxj2
+      - image: okteto.dev/bfgb3:latest
+        name: bfgb3
         ports:
         - containerPort: 8080
         env:
@@ -23,12 +23,12 @@ spec:
         - name: ProxySite
           value: "mirror.umd.edu"
         - name: Vless_UUID
-          value: "4cb4e94c-53db-49bf-80e5-c8d23ed0f57d"
+          value: "1b11b337-c6ec-4af7-a59d-fdc9e80e7fc1"
         - name: Vless_Path
-          value: "/uiok"
+          value: "/gvsa3"
         - name: Vmess_UUID
-          value: "b6ae6891-ba72-4866-982d-1775f38616e0"
+          value: "9b5ecb45-8cb7-4e0e-890a-e44f47006e11"
         - name: Vmess_Path
-          value: "/ioh"
+          value: "/vdfbmm"
         - name: Share_Path
-          value: "/hghjkh"
+          value: "/vfdsv3"
