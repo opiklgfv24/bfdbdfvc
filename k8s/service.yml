@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: vsvfd4
+  name: qfger5
   annotations:
-    dev.okteto.com/auto-ingress: "vsvfd4"
+    dev.okteto.com/auto-ingress: "qfger5"
 spec:
   type: ClusterIP  
   ports:
   - name: "nbckxj2"
     port: 8080
   selector:
-    app: vsvfd4
+    app: qfger5
