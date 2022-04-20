@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:  qfger5
+  name:  vqevef2
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: qfger5
+      app: vqevef2
   template:
     metadata:
       labels:
-        app: qfger5
+        app: vqevef2
     spec:
       containers:
-      - image: okteto.dev/qfger5:latest
-        name: qfger5
+      - image: okteto.dev/vqevef2:latest
+        name: vqevef2
         ports:
         - containerPort: 8080
         env:
