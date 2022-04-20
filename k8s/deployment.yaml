@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name:  fgnfh
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fgnfh
+  template:
+    metadata:
+      labels:
+        app: fgnfh
+    spec:
+      containers:
+      - image: okteto.dev/fgnfh:latest
+        name: fgnfh
+        ports:
+        - containerPort: 8080
+        env:
+        - name: PORT
+          value: "8080"
+        - name: ProxySite
+          value: "mirror.umd.edu"
+        - name: Vless_UUID
+          value: "eaf55446-9293-4a70-86be-a218c4097374"
+        - name: Vless_Path
+          value: "/s233"
+        - name: Vmess_UUID
+          value: "482af660-c2f7-49b2-b5f7-7f2fbadc9d7f"
+        - name: Vmess_Path
+          value: "/s244"
+        - name: Share_Path
+          value: "/share233"
