@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:  vsvfd4
+  name:  qfger5
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: vsvfd4
+      app: qfger5
   template:
     metadata:
       labels:
-        app: vsvfd4
+        app: qfger5
     spec:
       containers:
-      - image: okteto.dev/vsvfd4:latest
-        name: vsvfd4
+      - image: okteto.dev/qfger5:latest
+        name: qfger5
         ports:
         - containerPort: 8080
         env:
@@ -23,12 +23,12 @@ spec:
         - name: ProxySite
           value: "mirror.umd.edu"
         - name: Vless_UUID
-          value: "d05fccf7-8cc7-4bc2-b70a-692a89aa6178"
+          value: "088d29f7-6793-490f-87bf-ea82996101a6"
         - name: Vless_Path
-          value: "/vnfids4"
+          value: "/cdsavds5"
         - name: Vmess_UUID
-          value: "366d20c5-2416-490f-be8b-d62dd2bb5975"
+          value: "38d1900b-e33a-42fa-81fc-ea504126d33d"
         - name: Vmess_Path
-          value: "/mvsde4"
+          value: "/mvsavd5"
         - name: Share_Path
-          value: "/bhuj4"
+          value: "/vafbdfew5"
