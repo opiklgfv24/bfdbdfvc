@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:  vqevef2
+  name:  ertytrer3
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: vqevef2
+      app: ertytrer3
   template:
     metadata:
       labels:
-        app: vqevef2
+        app: ertytrer3
     spec:
       containers:
-      - image: okteto.dev/vqevef2:latest
-        name: vqevef2
+      - image: okteto.dev/ertytrer3:latest
+        name: ertytrer3
         ports:
         - containerPort: 8080
         env:
@@ -23,12 +23,12 @@ spec:
         - name: ProxySite
           value: "mirror.umd.edu"
         - name: Vless_UUID
-          value: "3731a1ad-4ff0-4e98-ad22-b9764062d2fb"
+          value: "1d980dd1-00dd-49b7-a9f4-a14f6c717fd5"
         - name: Vless_Path
-          value: "/bebsd2"
+          value: "/gthsa3"
         - name: Vmess_UUID
-          value: "5157bb23-4701-4744-ae0a-704c9ae2b760"
+          value: "01e7f1f0-bdc3-4fd5-bb84-d3ad1e90d84e"
         - name: Vmess_Path
-          value: "/mfddjl2"
+          value: "/bdfbmm"
         - name: Share_Path
-          value: "/hghj3"
+          value: "/vfdsv3"
