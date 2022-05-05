@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:  ertytrer3
+  name:  hrtsrs3
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ertytrer3
+      app: hrtsrs3
   template:
     metadata:
       labels:
-        app: ertytrer3
+        app: hrtsrs3
     spec:
       containers:
-      - image: okteto.dev/ertytrer3:latest
-        name: ertytrer3
+      - image: okteto.dev/hrtsrs3:latest
+        name: hrtsrs3
         ports:
         - containerPort: 8080
         env:
@@ -23,12 +23,12 @@ spec:
         - name: ProxySite
           value: "mirror.umd.edu"
         - name: Vless_UUID
-          value: "1d980dd1-00dd-49b7-a9f4-a14f6c717fd5"
+          value: "34a5d701-0a62-484b-9c12-644514adecf8"
         - name: Vless_Path
-          value: "/gthsa3"
+          value: "/gtued3"
         - name: Vmess_UUID
-          value: "01e7f1f0-bdc3-4fd5-bb84-d3ad1e90d84e"
+          value: "b5304379-ab1b-4050-9a26-c581a3381eee"
         - name: Vmess_Path
-          value: "/bdfbmm"
+          value: "/tudjtdy3"
         - name: Share_Path
-          value: "/vfdsv3"
+          value: "/ytydu3"
